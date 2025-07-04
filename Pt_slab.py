@@ -5,7 +5,7 @@ from ase.constraints import FixAtoms
 from ase.io import write
 from ase.visualize import view
 
-# Pt(211), 3x2, 4 layers
+# Pt(111), 3x2, 4 layers
 slab = fcc111('Pt', size=(3,2,4), vacuum=20.0)
 
 # z-axis centering
