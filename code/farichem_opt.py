@@ -1,3 +1,5 @@
+#A code that places an adsorbate at a specified position and performs geometry optimization.
+
 from ase.io import read, write
 from ase.build import add_adsorbate, molecule
 from ase.optimize import LBFGS
@@ -5,7 +7,7 @@ from fairchem.core import pretrained_mlip, FAIRChemCalculator
 import numpy as np
 
 # Load slab from POSCAR
-slab = read("/content/drive/MyDrive/input_POSCAR/POSCAR_111")  #update the path
+slab = read("POSCAR_111")  #update the path
 
 # Create adsorbate
 adsorbate = molecule("H")
@@ -30,7 +32,7 @@ opt = LBFGS(slab)
 opt.run(fmax=0.05, steps=100)
 
 # Write final optimized structure to POSCAR
-output_path = "/content/drive/MyDrive/output_POSCAR/POSCAR_111_out"
+output_path = "POSCAR_111_out"
 write(output_path, slab, format="vasp")
 
 output_path
