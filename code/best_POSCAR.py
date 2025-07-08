@@ -4,8 +4,8 @@ from fairchem.core import pretrained_mlip, FAIRChemCalculator
 from ase.optimize import LBFGS
 
 # set the path
-input_dir = "/content/drive/MyDrive/input_POSCAR/00-111"  #directory
-output_dir = "/content/drive/MyDrive/output_POSCAR/evaluated_structures"
+input_dir = "/home/users/yeong/work/25_s/VASPsol++/oc20/00-111/input"  #directory
+output_dir = "/home/users/yeong/work/25_s/VASPsol++/oc20/00-111/output"
 os.makedirs(output_dir, exist_ok=True)
 
 # setting calculator
