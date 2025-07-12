@@ -14,8 +14,9 @@ Focusing on the representative HER pathway (Volmer, Tafel, and Heyrovsky mechani
 2Pt* + 2H2O + cation -> 2PtH + 2OH- + cation -> 2Pt + H2 + 2OH- + cation
 
 Based on the computed activation barriers, I will further perform constant-potential Kinetic Monte Carlo (KMC) simulations to kinetically assess:
-•	The effect of applied potential on reaction rates
-•	The influence of catalyst surface structure (crystalline, amorphous, defective)
-•	The impact of pH and specific cation environments of HER performance
+
+* The effect of applied potential on reaction rates
+* The influence of catalyst surface structure (crystalline, amorphous, defective)
+* The impact of pH and specific cation environments of HER performance
 
  Ultimately, this research aims to establish fundamental design principles for optimizing HER efficiency. Furthermore, the obtained insights may guide strategies to enhance the durability and selectivity of Pt-based electrodes for fuel cell applications.
