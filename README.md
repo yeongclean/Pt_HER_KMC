@@ -9,6 +9,7 @@ Focusing on the representative HER pathway (Volmer, Tafel, and Heyrovsky mechani
 
 •	In acid:
 2Pt* + 2H+ + 2e- -> 2PtH -> 2Pt + H2
+
 •	In alkaline or cation-rich:
 2Pt* + 2H2O + cation -> 2PtH + 2OH- + cation -> 2Pt + H2 + 2OH- + cation
 
