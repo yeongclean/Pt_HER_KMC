@@ -7,6 +7,9 @@
  This study focuses primarily on well-defined crystalline platinum surfaces, such as Pt(111), Pt(100), and Pt(211). And then, it will examine structurally irregular surfaces, including grain boundaries and amorphous Pt models. Additionally, Au surfaces will be used for comparative analysis when necessary.
 Focusing on the representative HER pathway (Volmer, Tafel, and Heyrovsky mechanisms), I will evaluate the potential-dependent reaction barriers. In particular, the following pathways will be studied in detail:
 
+![reaction_img](./img/reaction.png)
+
+
 * In acid:
 
 2Pt* + 2H+ + 2e- -> 2PtH -> 2Pt + H2
